@@ -1,0 +1,64 @@
+header {
+    text-align: center;
+  }
+  .box {
+    width: 30%;
+    height: 50vh;
+    background-color: grey;
+  }
+  .flex-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    /*   display:block; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section1-box1 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco.jpg");
+  }
+  .section1-box2 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/new-york.jpg");
+  }
+  .section1-box3 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/london.jpg");
+  }
+  .section3-box1 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/napa.jpg");
+  }
+  .section3-box2 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sonoma.jpg");
+  }
+  .section3-box3 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco-2.jpg");
+  }
+  
+  /*button*/
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 1%;
+    border: 2px solid black;
+  
+    margin: 5% auto;
+    text-decoration: none;
+    width: 30%;
+  }
+  /* section#2*/
+  .section2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2px 0;
+  }
+  
